@@ -4,6 +4,7 @@ import BookingSection from '../app/components/homepage/BookingSection';
 import AboutSection from '../app/components/homepage/AboutSection';
 import ServicesSection from '../app/components/homepage/ServicesSection';
 import Rooms from './components/homepage/RoomDescSection';
+import FacilitiesSection from './components/homepage/FacilitiesSection';
 import Footer from './components/Footer';
 
 export default function Home() {
@@ -12,6 +13,9 @@ export default function Home() {
             <BookingSection />
             <AboutSection />
             <ServicesSection />
+            <div id="facility">
+                <FacilitiesSection />
+            </div>
             <div id="rooms">
                 <Rooms />
             </div>

@@ -12,6 +12,9 @@ export default function Navbar() {
                 <Link href="#rooms" className='px-5'>
                     Rooms
                 </Link>
+                <Link href="#facility" className='px-5'>
+                    Facilities
+                </Link>
             </div>
 
             {/* Right side */}
