@@ -12,7 +12,9 @@ export default function Home() {
             <BookingSection />
             <AboutSection />
             <ServicesSection />
-            <Rooms />
+            <div id="rooms">
+                <Rooms />
+            </div>
         </div>
     );
 }
