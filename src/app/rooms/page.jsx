@@ -7,7 +7,7 @@ import { roomData } from '../constants/index';
 function RoomCard({ room, onSelect, isSelected }) {
   return (
     <div className="border rounded-lg shadow-lg overflow-hidden w-[1000px]">
-      <div className="flex">
+      <div className="flex items-center">
         <div className="w-1/2 p-4 cursor-pointer" onClick={() => onSelect(room)}>
           <h2 className="text-xl font-semibold">{room.title}</h2>
           <p className="text-gray-600">{room.description}</p>
