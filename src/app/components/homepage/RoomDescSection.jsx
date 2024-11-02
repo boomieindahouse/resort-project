@@ -39,7 +39,7 @@ function Rooms() {
   };
 
   return (
-    <div className="p-6 space-y-4 flex flex-col items-center">
+    <div className="p-6 space-y-4 flex flex-col items-center py-28">
       <h1 className="text-3xl font-bold mb-6">Our Rooms</h1>
       {roomData.map((room) => (
         <RoomCard

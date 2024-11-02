@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
     return (
-        <nav className="bg-gray-700 text-white p-5 flex justify-between items-center">
+        <nav className="bg-gray-700 text-white p-5 flex justify-between items-center fixed top-0 left-0 w-full z-50">
             {/* left side */}
             <Link href='/' className="text-lg font-bold px-10">Tonnam Resort</Link>
             

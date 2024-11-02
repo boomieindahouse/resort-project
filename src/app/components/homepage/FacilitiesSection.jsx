@@ -7,7 +7,7 @@ import {
 
 export default function FacilitiesSection() {
   return (
-    <div className="text-center py-10 bg-gray-200">
+    <div className="text-center py-10 bg-gray-200 py-28">
       <h2 className="text-3xl font-semibold mb-4">{FACILITIES_TITLE}</h2>
       <p className="mb-6 text-gray-500">{FACILITIES_DESCRIPTION}</p>
       
