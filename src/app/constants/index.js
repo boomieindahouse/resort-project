@@ -50,4 +50,22 @@ export const roomData = [
       ]
     }
   ];
+
+
+export const FACILITIES_TITLE = "Facilities & Services";
+export const FACILITIES_DESCRIPTION = "สิ่งอำนวยความสะดวกและบริการ";
+export const FACILITIES_LIST = [
+    "เตียงนอนนุ่มสบาย",
+    "ห้องพักและห้องน้ำสะอาด",
+    "พนักงานเป็นกันเอง",
+    "ความปลอดภัยสูง",
+    "High Speed Wi-Fi",
+    "ที่จอดรถฟรี",
+    "บริการกาแฟและขนมปังตอนเช้า",
+    "ความสะดวกสบาย",
+    "สิ่งอำนวยความสะดวกต่างๆพร้อมเพื่อความสบาย",
+    "ความคุ้มค่ากับเงินที่จ่ายไป"
+];
+export const FACILITIES_QUOTE = "Chilling out on the bed in your hotel room watching television, while wearing your own pajamas, is sometimes the best part of a vacation";
+
   
