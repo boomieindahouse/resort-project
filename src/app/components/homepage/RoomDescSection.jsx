@@ -2,7 +2,7 @@
 "use client"; // เพิ่มบรรทัดนี้เพื่อระบุว่าเป็น Client Component
 
 import { useState } from 'react';
-import { roomData } from '../constants/index';
+import { roomData } from '../../constants/index';
 
 function RoomCard({ room, onSelect, isSelected }) {
   return (
@@ -40,12 +40,13 @@ function Rooms() {
 
   return (
     <div className="p-6 space-y-4 flex flex-col items-center">
+      <h1 className="text-3xl font-bold mb-6">Our Rooms</h1>
       {roomData.map((room) => (
-        <RoomCard 
-          key={room.title} 
-          room={room} 
-          onSelect={handleSelectRoom} 
-          isSelected={selectedRoom === room} 
+        <RoomCard
+          key={room.title}
+          room={room}
+          onSelect={handleSelectRoom}
+          isSelected={selectedRoom === room}
         />
       ))}
     </div>
