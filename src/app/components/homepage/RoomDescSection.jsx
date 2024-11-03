@@ -12,6 +12,7 @@ function RoomCard({ room, onSelect, isSelected }) {
           <h2 className="text-xl font-semibold">{room.title}</h2>
           <p className="text-gray-600">{room.description}</p>
           <p className="text-lg font-bold mt-2">${room.price} per night</p>
+          <p className='text-sm text-gray-500 py-2'>click to see description</p>
         </div>
         <div className="w-1/2">
           <img src={room.image} alt={room.title} className="w-full h-48 object-cover cursor-pointer" onClick={() => onSelect(room)} />

@@ -9,6 +9,9 @@ export default function Navbar() {
             
             {/* mid */}
             <div className="flex-grow text-center">
+            <Link href="#about" className='px-5'>
+                    About
+                </Link>
                 <Link href="#rooms" className='px-5'>
                     Rooms
                 </Link>

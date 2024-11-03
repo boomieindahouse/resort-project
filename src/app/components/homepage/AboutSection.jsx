@@ -1,7 +1,7 @@
 // components/AboutSection.js
 export default function AboutSection() {
     return (
-        <div className="flex justify-around bg-gray-100 h-[600px] flex justify-center items-center">
+        <div className="flex justify-around h-[700px] bg-gray-100 flex justify-center items-center">
             <img
                 src="https://image-placeholder.com/images/actual-size/600x400.png"
                 alt="Resort placeholder"
