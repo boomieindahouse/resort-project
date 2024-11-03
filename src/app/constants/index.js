@@ -68,4 +68,12 @@ export const FACILITIES_LIST = [
 ];
 export const FACILITIES_QUOTE = "Chilling out on the bed in your hotel room watching television, while wearing your own pajamas, is sometimes the best part of a vacation";
 
+
+export const carouselImages = [
+  "https://image-placeholder.com/images/actual-size/600x400.png",
+  "https://image-placeholder.com/images/actual-size/600x400.png",
+  "https://image-placeholder.com/images/actual-size/600x400.png"
+];
+
+
   
