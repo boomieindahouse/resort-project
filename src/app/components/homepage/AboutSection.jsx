@@ -15,7 +15,7 @@ export default function AboutSection() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quae rem nemo iste ut totam harum repellat esse quod voluptatum.
                     </p>
                     <p className="mt-2 text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur. Metus elit leo pretium amet...
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt quis impedit?
                     </p>
                     <p className="mt-2 text-gray-600">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate perspiciatis explicabo molestias molestiae aut.
